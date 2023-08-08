@@ -19,7 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    insight,
     jobit,
     tripguide,
     threejs,
@@ -198,25 +198,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Insight - HTML Email",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "HTML email developed for service based promotion, it is fully responsive across devices of all sizes and has been tested using PutsMail",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "FIGMA",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: insight,
+      source_code_link: "https://github.com/divbySeptember/HTML_Email_HED1",
+      site_url: "https://comfy-fenglisu-dfb1dd.netlify.app/",
     },
     {
       name: "Job IT",

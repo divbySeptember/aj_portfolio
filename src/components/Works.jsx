@@ -2,14 +2,14 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion'
 
 import {style} from '../style'
-import { github } from '../assets'
+import { github, web } from '../assets'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
 
 
-const  ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const  ProjectCard = ({ index, name, description, tags, image, source_code_link, site_url }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} >
       <Tilt options={{
@@ -23,9 +23,11 @@ const  ProjectCard = ({ index, name, description, tags, image, source_code_link 
                 alt={name}
                 className='w-full h-full object-cover rounded-2xl'
               />
-              <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-                <div onClick={() => window.open(source_code_link, "_blank")} className='black-gradient w-10 h-10 rounded-full flex flex-center justify-center items-center cursor-pointer' >
+              <div className='absolute inset-0 flex justify-end  m-3 card-img_hover'>
+                <div onClick={() => window.open(source_code_link, "_blank")} className='black-gradient  w-10 h-10  m-1 rounded-full flex flex-center justify-center items-center cursor-pointer ' >
                   <img src={github} alt='github' className="w-1/2 h-1/2 object-contain" />
+                </div><div onClick={() => window.open(site_url, "_blank")} className='black-gradient w-10 h-10 m-1 rounded-full flex flex-center justify-center items-center cursor-pointer' >
+                  <img src={web} alt='github' className="w-1/2 h-1/2 object-contain" />
                 </div>
               </div>
             </div>
