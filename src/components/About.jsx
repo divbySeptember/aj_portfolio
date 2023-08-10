@@ -40,10 +40,10 @@ const ServiceCard = ({index, title,  icon}) => {
 const About = () => {
   return (
     <>
-    <motion.dev variants={textVariant()}> 
+    <motion.div variants={textVariant()}> 
       <p className={style.sectionSubText}>Introduction</p>
       <h2 className={style.sectionHeadText}> Overview </h2>
-    </motion.dev>
+    </motion.div>
     <motion.p variants={fadeIn( "", "", 0.1, 1)} className=" mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
       I'm a skilled front-end dev with a love for HTML Email development,
       with a focus on frameworks such as React.js, Node.js, Three.js, Motion.js, I am a firm believer that we should never stop learning
