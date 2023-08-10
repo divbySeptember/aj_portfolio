@@ -21,7 +21,7 @@ import {
     shopify,
     insight,
     carvana,
-    tripguide,
+    clarify,
     threejs,
   } from "../assets";
   
@@ -46,11 +46,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Email Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Fontend Developer",
       icon: backend,
     },
     {
@@ -242,25 +242,26 @@ import {
       site_url: "https://gilded-daifuku-f85834.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Clarify Music",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive Spotify Data App  that allows users search artist on spotify and get back data for the artist, music, stream count.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "figma",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Less",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: clarify,
+      source_code_link: "https://github.com/bw-spotify/user-interface",
+      site_url: "https://clarifymusic.netlify.app/",
     },
   ];
   

@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import carvana from "./carvana.png";
-import tripguide from "./tripguide.png";
+import clarify from "./clarify.png";
 
 export {
   logo,
@@ -59,6 +59,6 @@ export {
   tesla,
   carrent,
   carvana,
-  tripguide,
+  clarify,
   insight,
 };
