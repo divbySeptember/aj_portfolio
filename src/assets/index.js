@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import carvana from "./carvana.png";
 import clarify from "./clarify.png";
 
+
 export {
   logo,
   backend,
@@ -61,4 +62,5 @@ export {
   carvana,
   clarify,
   insight,
+  
 };
