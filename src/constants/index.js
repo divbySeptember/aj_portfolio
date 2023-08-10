@@ -20,7 +20,7 @@ import {
     tesla,
     shopify,
     insight,
-    jobit,
+    carvana,
     tripguide,
     threejs,
   } from "../assets";
@@ -220,25 +220,26 @@ import {
       site_url: "https://comfy-fenglisu-dfb1dd.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Carvana",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "figma",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: carvana,
+      source_code_link: "https://github.com/divbySeptember/carvana",
+      site_url: "https://gilded-daifuku-f85834.netlify.app/",
     },
     {
       name: "Trip Guide",
